@@ -1,0 +1,68 @@
+[
+  {
+    "model": "yourapp.invoice",
+    "pk": 1,
+    "fields": {
+      "project_id": 1,
+      "amount": "1000.00",
+      "status": "Paid",
+      "issue_date": "2024-01-01T00:00:00Z",
+      "due_date": "2024-01-31T00:00:00Z"
+    }
+  },
+  {
+    "model": "yourapp.invoice",
+    "pk": 2,
+    "fields": {
+      "project_id": 2,
+      "amount": "2000.00",
+      "status": "Pending",
+      "issue_date": "2024-02-01T00:00:00Z",
+      "due_date": "2024-02-28T00:00:00Z"
+    }
+  },
+  {
+    "model": "yourapp.invoice",
+    "pk": 3,
+    "fields": {
+      "project_id": 3,
+      "amount": "1500.00",
+      "status": "Overdue",
+      "issue_date": "2024-03-01T00:00:00Z",
+      "due_date": "2024-03-31T00:00:00Z"
+    }
+  },
+  {
+    "model": "yourapp.invoice",
+    "pk": 4,
+    "fields": {
+      "project_id": 4,
+      "amount": "2500.00",
+      "status": "Paid",
+      "issue_date": "2024-04-01T00:00:00Z",
+      "due_date": "2024-04-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "yourapp.invoice",
+    "pk": 5,
+    "fields": {
+      "project_id": 5,
+      "amount": "3000.00",
+      "status": "Pending",
+      "issue_date": "2024-05-01T00:00:00Z",
+      "due_date": "2024-05-31T00:00:00Z"
+    }
+  },
+  {
+    "model": "yourapp.invoice",
+    "pk": 6,
+    "fields": {
+      "project_id": 6,
+      "amount": "3500.00",
+      "status": "Overdue",
+      "issue_date": "2024-06-01T00:00:00Z",
+      "due_date": "2024-06-30T00:00:00Z"
+    }
+  }
+]

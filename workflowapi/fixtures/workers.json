@@ -1,0 +1,50 @@
+[
+  {
+    "model": "app_name.worker",
+    "pk": 1,
+    "fields": {
+      "user_id": 5,
+      "availability": "working"
+    }
+  },
+  {
+    "model": "app_name.worker",
+    "pk": 2,
+    "fields": {
+      "user_id": 6,
+      "availability": "off"
+    }
+  },
+  {
+    "model": "app_name.worker",
+    "pk": 3,
+    "fields": {
+      "user_id": 3,
+      "availability": "working"
+    }
+  },
+  {
+    "model": "app_name.worker",
+    "pk": 4,
+    "fields": {
+      "user_id": 4,
+      "availability": "off"
+    }
+  },
+  {
+    "model": "app_name.worker",
+    "pk": 5,
+    "fields": {
+      "user_id": 1,
+      "availability": "working"
+    }
+  },
+  {
+    "model": "app_name.worker",
+    "pk": 6,
+    "fields": {
+      "user_id": 2,
+      "availability": "off"
+    }
+  }
+]
