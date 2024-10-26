@@ -1,6 +1,6 @@
 [
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 1,
     "fields": {
       "clientId": 1,
@@ -12,7 +12,7 @@
     }
   },
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 2,
     "fields": {
       "clientId": 2,
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 3,
     "fields": {
       "clientId": 3,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 4,
     "fields": {
       "clientId": 4,
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 5,
     "fields": {
       "clientId": 5,
@@ -60,7 +60,7 @@
     }
   },
   {
-    "model": "app_name.project",
+    "model": "workflowapi.project",
     "pk": 6,
     "fields": {
       "clientId": 6,

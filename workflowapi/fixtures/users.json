@@ -1,6 +1,6 @@
 [
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 1,
     "fields": {
       "user_name": "admin1",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 2,
     "fields": {
       "user_name": "admin2",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 3,
     "fields": {
       "user_name": "manager1",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 4,
     "fields": {
       "user_name": "manager2",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 5,
     "fields": {
       "user_name": "worker1",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "model": "app_name.user",
+    "model": "workflowapi.user",
     "pk": 6,
     "fields": {
       "user_name": "worker2",

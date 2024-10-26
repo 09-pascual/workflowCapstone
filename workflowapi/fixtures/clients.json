@@ -1,6 +1,6 @@
 [
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 1,
     "fields": {
       "first_name": "Emma",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 2,
     "fields": {
       "first_name": "Liam",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 3,
     "fields": {
       "first_name": "Olivia",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 4,
     "fields": {
       "first_name": "Noah",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 5,
     "fields": {
       "first_name": "Ava",
@@ -50,7 +50,7 @@
     }
   },
   {
-    "model": "app_name.client",
+    "model": "workflowapi.client",
     "pk": 6,
     "fields": {
       "first_name": "Sophia",

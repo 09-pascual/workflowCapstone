@@ -1,0 +1,50 @@
+[
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 1,
+    "fields": {
+      "project_id": 1,
+      "worker_id": 1
+    }
+  },
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 2,
+    "fields": {
+      "project_id": 1,
+      "worker_id": 2
+    }
+  },
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 3,
+    "fields": {
+      "project_id": 2,
+      "worker_id": 3
+    }
+  },
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 4,
+    "fields": {
+      "project_id": 2,
+      "worker_id": 4
+    }
+  },
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 5,
+    "fields": {
+      "project_id": 3,
+      "worker_id": 5
+    }
+  },
+  {
+    "model": "workflowapi.ProjectWorker",
+    "pk": 6,
+    "fields": {
+      "project_id": 3,
+      "worker_id": 6
+    }
+  }
+]

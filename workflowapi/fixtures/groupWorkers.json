@@ -1,31 +1,31 @@
 [
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 1,
     "fields": { "group_id": 1, "worker_id": 1 }
   },
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 2,
     "fields": { "group_id": 2, "worker_id": 2 }
   },
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 3,
     "fields": { "group_id": 3, "worker_id": 3 }
   },
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 4,
     "fields": { "group_id": 4, "worker_id": 4 }
   },
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 5,
     "fields": { "group_id": 5, "worker_id": 5 }
   },
   {
-    "model": "yourapp.groupworker",
+    "model": "workflowapi.groupworker",
     "pk": 6,
     "fields": { "group_id": 6, "worker_id": 6 }
   }

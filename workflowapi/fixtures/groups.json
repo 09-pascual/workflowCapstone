@@ -1,6 +1,6 @@
 [
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 1,
     "fields": {
       "name": "Development Team",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 2,
     "fields": {
       "name": "Marketing Team",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 3,
     "fields": {
       "name": "Sales Team",
@@ -24,12 +24,12 @@
     }
   },
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 4,
     "fields": { "name": "HR Team", "description": "Handles all HR tasks." }
   },
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 5,
     "fields": {
       "name": "Finance Team",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "model": "yourapp.group",
+    "model": "workflowapi.group",
     "pk": 6,
     "fields": {
       "name": "Support Team",
