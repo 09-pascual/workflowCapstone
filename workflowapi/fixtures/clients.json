@@ -1,0 +1,62 @@
+[
+  {
+    "model": "workflowapi.client",
+    "pk": 1,
+    "fields": {
+      "first_name": "Emma",
+      "last_name": "Watson",
+      "address": "123 Main St",
+      "phone_number": "1234567890"
+    }
+  },
+  {
+    "model": "workflowapi.client",
+    "pk": 2,
+    "fields": {
+      "first_name": "Liam",
+      "last_name": "Johnson",
+      "address": "456 Maple Ave",
+      "phone_number": "0987654321"
+    }
+  },
+  {
+    "model": "workflowapi.client",
+    "pk": 3,
+    "fields": {
+      "first_name": "Olivia",
+      "last_name": "Brown",
+      "address": "789 Oak Dr",
+      "phone_number": "1122334455"
+    }
+  },
+  {
+    "model": "workflowapi.client",
+    "pk": 4,
+    "fields": {
+      "first_name": "Noah",
+      "last_name": "Davis",
+      "address": "101 Pine Ln",
+      "phone_number": "5566778899"
+    }
+  },
+  {
+    "model": "workflowapi.client",
+    "pk": 5,
+    "fields": {
+      "first_name": "Ava",
+      "last_name": "Miller",
+      "address": "202 Birch Rd",
+      "phone_number": "6677889900"
+    }
+  },
+  {
+    "model": "workflowapi.client",
+    "pk": 6,
+    "fields": {
+      "first_name": "Sophia",
+      "last_name": "Wilson",
+      "address": "303 Cedar St",
+      "phone_number": "7788990011"
+    }
+  }
+]

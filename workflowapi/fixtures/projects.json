@@ -1,0 +1,74 @@
+[
+  {
+    "model": "workflowapi.project",
+    "pk": 1,
+    "fields": {
+      "clientId": 1,
+      "project_name": "Project Alpha",
+      "status": "Open",
+      "start_date": "2024-01-01T08:00:00Z",
+      "end_date": "2024-01-31T17:00:00Z",
+      "expected_duration": 30
+    }
+  },
+  {
+    "model": "workflowapi.project",
+    "pk": 2,
+    "fields": {
+      "clientId": 2,
+      "project_name": "Project Beta",
+      "status": "Closed",
+      "start_date": "2023-06-01T08:00:00Z",
+      "end_date": "2023-06-30T17:00:00Z",
+      "expected_duration": 30
+    }
+  },
+  {
+    "model": "workflowapi.project",
+    "pk": 3,
+    "fields": {
+      "clientId": 3,
+      "project_name": "Project Gamma",
+      "status": "Upcoming",
+      "start_date": "2024-05-01T08:00:00Z",
+      "end_date": "2024-05-31T17:00:00Z",
+      "expected_duration": 30
+    }
+  },
+  {
+    "model": "workflowapi.project",
+    "pk": 4,
+    "fields": {
+      "clientId": 4,
+      "project_name": "Project Delta",
+      "status": "Open",
+      "start_date": "2024-03-01T08:00:00Z",
+      "end_date": "2024-03-31T17:00:00Z",
+      "expected_duration": 30
+    }
+  },
+  {
+    "model": "workflowapi.project",
+    "pk": 5,
+    "fields": {
+      "clientId": 5,
+      "project_name": "Project Epsilon",
+      "status": "Closed",
+      "start_date": "2023-09-01T08:00:00Z",
+      "end_date": "2023-09-30T17:00:00Z",
+      "expected_duration": 30
+    }
+  },
+  {
+    "model": "workflowapi.project",
+    "pk": 6,
+    "fields": {
+      "clientId": 6,
+      "project_name": "Project Zeta",
+      "status": "Upcoming",
+      "start_date": "2024-07-01T08:00:00Z",
+      "end_date": "2024-07-31T17:00:00Z",
+      "expected_duration": 30
+    }
+  }
+]

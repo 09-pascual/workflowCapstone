@@ -1,0 +1,74 @@
+[
+  {
+    "model": "workflowapi.task",
+    "pk": 1,
+    "fields": {
+      "project_id": 1,
+      "worker_id": 1,
+      "description": "Initial setup and client communication",
+      "status": "Pending",
+      "start_date": "2024-01-01T08:00:00Z",
+      "end_date": "2024-01-05T17:00:00Z"
+    }
+  },
+  {
+    "model": "workflowapi.task",
+    "pk": 2,
+    "fields": {
+      "project_id": 2,
+      "worker_id": 2,
+      "description": "Final project review and closure",
+      "status": "Completed",
+      "start_date": "2023-06-25T08:00:00Z",
+      "end_date": "2023-06-30T17:00:00Z"
+    }
+  },
+  {
+    "model": "workflowapi.task",
+    "pk": 3,
+    "fields": {
+      "project_id": 3,
+      "worker_id": 3,
+      "description": "Design and prototype development",
+      "status": "In Progress",
+      "start_date": "2024-05-05T08:00:00Z",
+      "end_date": "2024-05-15T17:00:00Z"
+    }
+  },
+  {
+    "model": "workflowapi.task",
+    "pk": 4,
+    "fields": {
+      "project_id": 4,
+      "worker_id": 4,
+      "description": "Field testing and feedback gathering",
+      "status": "Pending",
+      "start_date": "2024-03-10T08:00:00Z",
+      "end_date": "2024-03-20T17:00:00Z"
+    }
+  },
+  {
+    "model": "workflowapi.task",
+    "pk": 5,
+    "fields": {
+      "project_id": 5,
+      "worker_id": 5,
+      "description": "Project kick-off meeting",
+      "status": "Completed",
+      "start_date": "2023-09-01T08:00:00Z",
+      "end_date": "2023-09-05T17:00:00Z"
+    }
+  },
+  {
+    "model": "workflowapi.task",
+    "pk": 6,
+    "fields": {
+      "project_id": 6,
+      "worker_id": 6,
+      "description": "Final testing and delivery",
+      "status": "Upcoming",
+      "start_date": "2024-07-15T08:00:00Z",
+      "end_date": "2024-07-30T17:00:00Z"
+    }
+  }
+]

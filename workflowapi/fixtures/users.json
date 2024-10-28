@@ -1,0 +1,74 @@
+[
+  {
+    "model": "workflowapi.user",
+    "pk": 1,
+    "fields": {
+      "user_name": "admin1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "birthdate": "1980-01-01",
+      "phone_number": "1234567890",
+      "role": "Admin"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 2,
+    "fields": {
+      "user_name": "admin2",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "birthdate": "1982-02-02",
+      "phone_number": "0987654321",
+      "role": "Admin"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 3,
+    "fields": {
+      "user_name": "manager1",
+      "first_name": "Alice",
+      "last_name": "Brown",
+      "birthdate": "1990-03-03",
+      "phone_number": "1122334455",
+      "role": "Manager"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 4,
+    "fields": {
+      "user_name": "manager2",
+      "first_name": "Bob",
+      "last_name": "Green",
+      "birthdate": "1991-04-04",
+      "phone_number": "5566778899",
+      "role": "Manager"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 5,
+    "fields": {
+      "user_name": "worker1",
+      "first_name": "Charlie",
+      "last_name": "Black",
+      "birthdate": "1995-05-05",
+      "phone_number": "6677889900",
+      "role": "Worker"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 6,
+    "fields": {
+      "user_name": "worker2",
+      "first_name": "David",
+      "last_name": "White",
+      "birthdate": "1996-06-06",
+      "phone_number": "7788990011",
+      "role": "Worker"
+    }
+  }
+]
