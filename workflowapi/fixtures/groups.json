@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "Development Team",
-      "description": "Handles all development tasks."
+      "description": "Handles all development tasks.",
+      "workers": [1, 2]
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "name": "Marketing Team",
-      "description": "Handles all marketing tasks."
+      "description": "Handles all marketing tasks.",
+      "workers": [3, 4]
     }
   },
   {
@@ -20,28 +22,8 @@
     "pk": 3,
     "fields": {
       "name": "Sales Team",
-      "description": "Handles all sales tasks."
-    }
-  },
-  {
-    "model": "workflowapi.group",
-    "pk": 4,
-    "fields": { "name": "HR Team", "description": "Handles all HR tasks." }
-  },
-  {
-    "model": "workflowapi.group",
-    "pk": 5,
-    "fields": {
-      "name": "Finance Team",
-      "description": "Handles all finance tasks."
-    }
-  },
-  {
-    "model": "workflowapi.group",
-    "pk": 6,
-    "fields": {
-      "name": "Support Team",
-      "description": "Handles all support tasks."
+      "description": "Handles all sales tasks.",
+      "workers": [5, 6]
     }
   }
 ]

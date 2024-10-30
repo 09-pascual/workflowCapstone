@@ -5,6 +5,7 @@
     "fields": {
       "clientId": 1,
       "project_name": "Project Alpha",
+      "assigned_group": 1,
       "status": "Open",
       "start_date": "2024-01-01T08:00:00Z",
       "end_date": "2024-01-31T17:00:00Z",
@@ -17,6 +18,7 @@
     "fields": {
       "clientId": 2,
       "project_name": "Project Beta",
+      "assigned_group": 2,
       "status": "Closed",
       "start_date": "2023-06-01T08:00:00Z",
       "end_date": "2023-06-30T17:00:00Z",
@@ -29,6 +31,7 @@
     "fields": {
       "clientId": 3,
       "project_name": "Project Gamma",
+      "assigned_group": 3,
       "status": "Upcoming",
       "start_date": "2024-05-01T08:00:00Z",
       "end_date": "2024-05-31T17:00:00Z",
@@ -41,6 +44,7 @@
     "fields": {
       "clientId": 4,
       "project_name": "Project Delta",
+      "assigned_group": 1,
       "status": "Open",
       "start_date": "2024-03-01T08:00:00Z",
       "end_date": "2024-03-31T17:00:00Z",
@@ -53,6 +57,7 @@
     "fields": {
       "clientId": 5,
       "project_name": "Project Epsilon",
+      "assigned_group": 2,
       "status": "Closed",
       "start_date": "2023-09-01T08:00:00Z",
       "end_date": "2023-09-30T17:00:00Z",
@@ -65,6 +70,7 @@
     "fields": {
       "clientId": 6,
       "project_name": "Project Zeta",
+      "assigned_group": 3,
       "status": "Upcoming",
       "start_date": "2024-07-01T08:00:00Z",
       "end_date": "2024-07-31T17:00:00Z",

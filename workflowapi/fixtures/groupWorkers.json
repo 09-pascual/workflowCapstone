@@ -2,31 +2,49 @@
   {
     "model": "workflowapi.groupworker",
     "pk": 1,
-    "fields": { "group_id": 1, "worker_id": 1 }
+    "fields": {
+      "group": 1,
+      "worker": 5
+    }
   },
   {
     "model": "workflowapi.groupworker",
     "pk": 2,
-    "fields": { "group_id": 2, "worker_id": 2 }
+    "fields": {
+      "group": 1,
+      "worker": 6
+    }
   },
   {
     "model": "workflowapi.groupworker",
     "pk": 3,
-    "fields": { "group_id": 3, "worker_id": 3 }
+    "fields": {
+      "group": 2,
+      "worker": 3
+    }
   },
   {
     "model": "workflowapi.groupworker",
     "pk": 4,
-    "fields": { "group_id": 4, "worker_id": 4 }
+    "fields": {
+      "group": 2,
+      "worker": 4
+    }
   },
   {
     "model": "workflowapi.groupworker",
     "pk": 5,
-    "fields": { "group_id": 5, "worker_id": 5 }
+    "fields": {
+      "group": 3,
+      "worker": 1
+    }
   },
   {
     "model": "workflowapi.groupworker",
     "pk": 6,
-    "fields": { "group_id": 6, "worker_id": 6 }
+    "fields": {
+      "group": 3,
+      "worker": 2
+    }
   }
 ]
