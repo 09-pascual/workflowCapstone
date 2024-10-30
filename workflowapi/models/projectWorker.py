@@ -1,7 +1,21 @@
 from django.db import models
+from .user import User
 from .project import Project
-from .worker import Worker
 
 class ProjectWorker(models.Model):
-    project_id = models.ForeignKey(Project, on_delete=models.DO_NOTHING)
-    worker_id = models.ForeignKey(Worker, on_delete=models.DO_NOTHING)
+    project_id = models.ForeignKey(
+        Project, 
+        on_delete=models.CASCADE,
+        related_name='project_workers'
+    )
+    worker_id = models.ForeignKey(
+        User, 
+        on_delete=models.CASCADE,
+        related_name='project_assignments'
+    )
+
+    class Meta:
+        unique_together = ['project_id', 'worker_id']
+
+    def __str__(self):
+        return f"{self.worker_id.username} - {self.project_id.project_name}"

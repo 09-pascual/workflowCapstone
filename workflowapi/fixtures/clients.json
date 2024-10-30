@@ -6,7 +6,8 @@
       "first_name": "Emma",
       "last_name": "Watson",
       "address": "123 Main St",
-      "phone_number": "1234567890"
+      "phone_number": "1234567890",
+      "email": "emma.watson@example.com"
     }
   },
   {
@@ -16,7 +17,8 @@
       "first_name": "Liam",
       "last_name": "Johnson",
       "address": "456 Maple Ave",
-      "phone_number": "0987654321"
+      "phone_number": "0987654321",
+      "email": "liam.johnson@example.com"
     }
   },
   {
@@ -26,7 +28,8 @@
       "first_name": "Olivia",
       "last_name": "Brown",
       "address": "789 Oak Dr",
-      "phone_number": "1122334455"
+      "phone_number": "1122334455",
+      "email": "olivia.brown@example.com"
     }
   },
   {
@@ -36,7 +39,8 @@
       "first_name": "Noah",
       "last_name": "Davis",
       "address": "101 Pine Ln",
-      "phone_number": "5566778899"
+      "phone_number": "5566778899",
+      "email": "noah.davis@example.com"
     }
   },
   {
@@ -46,7 +50,8 @@
       "first_name": "Ava",
       "last_name": "Miller",
       "address": "202 Birch Rd",
-      "phone_number": "6677889900"
+      "phone_number": "6677889900",
+      "email": "ava.miller@example.com"
     }
   },
   {
@@ -56,7 +61,8 @@
       "first_name": "Sophia",
       "last_name": "Wilson",
       "address": "303 Cedar St",
-      "phone_number": "7788990011"
+      "phone_number": "7788990011",
+      "email": "sophia.wilson@example.com"
     }
   }
 ]
