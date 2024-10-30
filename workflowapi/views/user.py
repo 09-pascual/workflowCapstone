@@ -6,7 +6,8 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = User
-        fields = ('id', 'url', 'username', 'email', 'first_name', 'last_name')
+        fields = ('id', 'url', 'user_name', 'first_name', 'last_name',
+                  'first_name', 'last_name', 'birthdate', 'phone_number', 'role' )
         
 class UserViewSet(viewsets.ModelViewSet):
     
