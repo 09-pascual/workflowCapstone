@@ -1,12 +1,12 @@
 from rest_framework import serializers
 from rest_framework import viewsets
 from workflowapi.models import Project
-from .group import GroupSerializer  # Import the group serializer
-from .client import ClientSerializer  # If you have a separate client serializer
+from .group import GroupSerializer  
+from .client import ClientSerializer 
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
-    clientId = ClientSerializer(read_only=True)
-    assigned_group = GroupSerializer(read_only=True)  
+    clientId = ClientSerializer(read_only=False)
+    assigned_group = GroupSerializer(read_only=False)  
     
     class Meta:
         model = Project
