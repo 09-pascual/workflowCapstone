@@ -18,7 +18,7 @@ class GroupWorker(models.Model):
 
     class Meta:
         db_table = 'workflowapi_groupworker'
-        unique_together = ['group_id', 'worker_id']  # Make sure this matches your field names
+        unique_together = ['group_id', 'worker_id']
 
     def __str__(self):
         return f"{self.worker_id.user_name} - {self.group_id.name}"

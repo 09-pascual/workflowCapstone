@@ -9,7 +9,7 @@ class Invoice(models.Model):
         ('Overdue', 'Overdue')
     ]
     
-    project_id = models.ForeignKey(Project, on_delete=models.DO_NOTHING)
+    project_id = models.ForeignKey(Project, on_delete=models.CASCADE)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES)
     issue_date = models.DateTimeField()
