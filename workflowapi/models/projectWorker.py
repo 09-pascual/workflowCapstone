@@ -18,4 +18,4 @@ class ProjectWorker(models.Model):
         unique_together = ['project_id', 'worker_id']
 
     def __str__(self):
-        return f"{self.worker_id.username} - {self.project_id.project_name}"
+        return f"{self.worker_id.user_name} - {self.project_id.project_name}"

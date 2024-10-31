@@ -3,21 +3,22 @@ from .group import Group
 from .user import User
 
 class GroupWorker(models.Model):
-    group = models.ForeignKey(
-        Group, 
+    group_id = models.ForeignKey(
+        Group,
         on_delete=models.CASCADE,
-        related_name='group_workers'
+        related_name='group_workers',
+        null=True
     )
-    worker = models.ForeignKey(
-        User, 
+    worker_id = models.ForeignKey(
+        User,
         on_delete=models.CASCADE,
         related_name='group_assignments',
-        default=1  
+        default=1
     )
 
     class Meta:
         db_table = 'workflowapi_groupworker'
-        unique_together = ['group', 'worker']
+        unique_together = ['group_id', 'worker_id']
 
     def __str__(self):
-        return f"{self.worker.user_name} - {self.group.name}"
+        return f"{self.worker_id.user_name} - {self.group_id.name}"

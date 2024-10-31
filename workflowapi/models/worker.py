@@ -9,6 +9,6 @@ class Worker(models.Model):
         ('off', 'off')
     ]
     
-    user = models.OneToOneField(User, on_delete=models.DO_NOTHING)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     availability = models.CharField(max_length=200)
     

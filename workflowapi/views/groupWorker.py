@@ -7,7 +7,7 @@ class GroupWorkerSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = GroupWorker
-        fields = ('id', 'url', 'group', 'worker')
+        fields = ('id', 'url', 'group_id', 'worker_id')
         
 class GroupWorkerViewSet(viewsets.ModelViewSet):
     

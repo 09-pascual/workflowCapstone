@@ -6,7 +6,7 @@ class WorkerSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = Worker
-        fields = ('id', 'url', 'name', 'position', 'email')
+        fields = ('id', 'url', 'user', 'availability')
         
 
 class WorkerViewSet(viewsets.ModelViewSet):

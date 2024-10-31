@@ -9,10 +9,10 @@ class Project(models.Model):
         ('Upcoming', 'Upcoming'),
     ]
     
-    clientId = models.ForeignKey(Client, on_delete=models.DO_NOTHING)
+    clientId = models.ForeignKey(Client, on_delete=models.CASCADE)
     assigned_group = models.ForeignKey(
         Group,
-        on_delete=models.DO_NOTHING,  # or models.DO_NOTHING based on your needs
+        on_delete=models.CASCADE,
         null=True,
         related_name='projects'
     )
