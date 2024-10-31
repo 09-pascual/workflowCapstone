@@ -3,8 +3,8 @@ from rest_framework import viewsets
 from workflowapi.models import Task
 
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
-    project_name = serializers.CharField(source='project_id.project_name', read_only=True)
-    worker_name = serializers.CharField(source='worker_id.user.user_name', read_only=True)
+    project_name = serializers.CharField(source='project_id.project_name', read_only=False)
+    worker_name = serializers.CharField(source='worker_id.user.user_name', read_only=False)
    
     class Meta:
         model = Task

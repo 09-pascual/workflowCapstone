@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "group_id": 1,
-      "worker_id": 5
+      "worker_id": 1
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
       "group_id": 1,
-      "worker_id": 6
+      "worker_id": 2
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
       "group_id": 3,
-      "worker_id": 1
+      "worker_id": 5
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
       "group_id": 3,
-      "worker_id": 2
+      "worker_id": 6
     }
   }
 ]

@@ -7,9 +7,9 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
         fields = ('id', 'url', 'user_name', 'first_name', 'last_name',
-                  'first_name', 'last_name', 'birthdate', 'phone_number', 'role' )
+                  'birthdate', 'phone_number', 'role' )
         
 class UserViewSet(viewsets.ModelViewSet):
     
     queryset = User.objects.all()
-    serializer = User.objects.all()
+    serializer_class = UserSerializer

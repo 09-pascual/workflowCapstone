@@ -5,7 +5,7 @@ from workflowapi.models import Group
 from .user import UserSerializer 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    workers = UserSerializer(source='workflow_groups', many=True, read_only=True)
+    workers = UserSerializer(many=True, read_only=False)
     
     class Meta:
         model = Group

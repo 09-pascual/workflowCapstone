@@ -1,5 +1,5 @@
 from django.db import models
-from .user import User
+from .worker import Worker
 from .project import Project
 
 class ProjectWorker(models.Model):
@@ -9,13 +9,11 @@ class ProjectWorker(models.Model):
         related_name='project_workers'
     )
     worker_id = models.ForeignKey(
-        User, 
+        Worker, 
         on_delete=models.CASCADE,
-        related_name='project_assignments'
+        related_name='assigned_projects'
     )
 
     class Meta:
         unique_together = ['project_id', 'worker_id']
 
-    def __str__(self):
-        return f"{self.worker_id.user_name} - {self.project_id.project_name}"

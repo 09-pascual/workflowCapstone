@@ -5,8 +5,8 @@ from .user import UserSerializer
 from .project import ProjectSerializer  # Import ProjectSerializer
 
 class ProjectWorkerSerializer(serializers.HyperlinkedModelSerializer):
-    worker_details = UserSerializer(source='worker_id', read_only=True)
-    project_details = ProjectSerializer(source='project_id', read_only=True)
+    worker_details = UserSerializer(source='worker_id', read_only=False)
+    project_details = ProjectSerializer(source='project_id', read_only=False)
     
     class Meta:
         model = ProjectWorker

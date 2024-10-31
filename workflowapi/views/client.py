@@ -7,7 +7,8 @@ class ClientSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = Client
-        fields = ('id', 'url', 'first_name', 'last_name', 'address', 'phone_number', "email")
+        fields = ('id', 'url', 'first_name', 'last_name',
+                  'address', 'phone_number', "email")
         
 class ClientViewSet(viewsets.ModelViewSet):
     

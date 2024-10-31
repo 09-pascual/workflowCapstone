@@ -3,7 +3,7 @@
     "model": "workflowapi.worker",
     "pk": 1,
     "fields": {
-      "user_id": 5,
+      "user": 5,
       "availability": "working"
     }
   },
@@ -11,7 +11,7 @@
     "model": "workflowapi.worker",
     "pk": 2,
     "fields": {
-      "user_id": 6,
+      "user": 6,
       "availability": "off"
     }
   },
@@ -19,7 +19,7 @@
     "model": "workflowapi.worker",
     "pk": 3,
     "fields": {
-      "user_id": 3,
+      "user": 7,
       "availability": "working"
     }
   },
@@ -27,24 +27,24 @@
     "model": "workflowapi.worker",
     "pk": 4,
     "fields": {
-      "user_id": 4,
-      "availability": "off"
+      "user": 8,
+      "availability": "working"
     }
   },
   {
     "model": "workflowapi.worker",
     "pk": 5,
     "fields": {
-      "user_id": 1,
-      "availability": "working"
+      "user": 9,
+      "availability": "off"
     }
   },
   {
     "model": "workflowapi.worker",
     "pk": 6,
     "fields": {
-      "user_id": 2,
-      "availability": "off"
+      "user": 10,
+      "availability": "working"
     }
   }
 ]

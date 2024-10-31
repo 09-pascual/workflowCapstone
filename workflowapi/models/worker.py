@@ -10,5 +10,7 @@ class Worker(models.Model):
     ]
     
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    availability = models.CharField(max_length=200)
+    availability = models.CharField(max_length=200, choices=AVAILABILITY_STATUS)
+       
+  
     

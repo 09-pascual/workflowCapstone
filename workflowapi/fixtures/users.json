@@ -7,7 +7,7 @@
       "first_name": "John",
       "last_name": "Doe",
       "birthdate": "1980-01-01",
-      "phone_number": "1234567890",
+      "phone_number": "123-456-7890",
       "role": "Admin"
     }
   },
@@ -19,7 +19,7 @@
       "first_name": "Jane",
       "last_name": "Smith",
       "birthdate": "1982-02-02",
-      "phone_number": "0987654321",
+      "phone_number": "098-765-4321",
       "role": "Admin"
     }
   },
@@ -31,7 +31,7 @@
       "first_name": "Alice",
       "last_name": "Brown",
       "birthdate": "1990-03-03",
-      "phone_number": "1122334455",
+      "phone_number": "112-233-4455",
       "role": "Manager"
     }
   },
@@ -43,7 +43,7 @@
       "first_name": "Bob",
       "last_name": "Green",
       "birthdate": "1991-04-04",
-      "phone_number": "5566778899",
+      "phone_number": "556-677-8899",
       "role": "Manager"
     }
   },
@@ -55,7 +55,7 @@
       "first_name": "Charlie",
       "last_name": "Black",
       "birthdate": "1995-05-05",
-      "phone_number": "6677889900",
+      "phone_number": "667-788-9900",
       "role": "Worker"
     }
   },
@@ -67,7 +67,55 @@
       "first_name": "David",
       "last_name": "White",
       "birthdate": "1996-06-06",
-      "phone_number": "7788990011",
+      "phone_number": "778-899-0011",
+      "role": "Worker"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 7,
+    "fields": {
+      "user_name": "worker3",
+      "first_name": "Eva",
+      "last_name": "Gray",
+      "birthdate": "1997-07-07",
+      "phone_number": "889-900-1122",
+      "role": "Worker"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 8,
+    "fields": {
+      "user_name": "worker4",
+      "first_name": "Frank",
+      "last_name": "Blue",
+      "birthdate": "1998-08-08",
+      "phone_number": "990-011-2233",
+      "role": "Worker"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 9,
+    "fields": {
+      "user_name": "worker5",
+      "first_name": "Grace",
+      "last_name": "Red",
+      "birthdate": "1999-09-09",
+      "phone_number": "001-122-3344",
+      "role": "Worker"
+    }
+  },
+  {
+    "model": "workflowapi.user",
+    "pk": 10,
+    "fields": {
+      "user_name": "worker6",
+      "first_name": "Henry",
+      "last_name": "Yellow",
+      "birthdate": "2000-10-10",
+      "phone_number": "112-233-4455",
       "role": "Worker"
     }
   }
